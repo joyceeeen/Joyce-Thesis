@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thesis.volunteam2.ListFragment"
+    android:background="@color/design_fab_stroke_top_outer_color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@color/background_floating_material_light"
+            android:elevation="2dp"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:text="Invite "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancel_button"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:background="?android:attr/colorForeground"
+                android:textColor="@android:color/white" />
+
+            <CheckBox
+                android:text="Select All"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox8"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvItemList"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/design_fab_stroke_end_outer_color"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

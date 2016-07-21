@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_activity"
+            android:title="Current Activity" />
+        <item
+            android:id="@+id/nav_application"
+            android:icon="@drawable/ic_application"
+            android:title="Volunteer Applications" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="Event History" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Event Calendar" />
+    </group>
+
+    <item android:title="Account Management">
+        <menu>
+            <item
+                android:id="@+id/nav_group"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="My Organization/s" />
+            <item
+                android:id="@+id/nav_addOrg"
+                android:icon="@drawable/ic_group_add_black_24dp"
+                android:title="Create Organization" />
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_edit"
+                android:title="Edit Account" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_settings_power_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+    <item android:title="Help and Documentation">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help and Feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About VolunTeam" />
+        </menu>
+    </item>
+</menu>
